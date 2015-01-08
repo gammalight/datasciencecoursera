@@ -1,0 +1,147 @@
+ls lists files and folders in the current directory
+ls -a lists all hidden and unhidden files and folders
+ls -al lists details for hidden and unhidden files and folders
+-a and -l are flags, they can be combined into the flag: -al
+
+cd stands for "change direcory"
+cd.. allows you to change directory to one level above your current directory
+
+mkdir stands for "make directory".  takes as an argument the name of the directory youre trying to create
+
+touch creates an empty file
+
+cp stands for copy, cp takes as its first argument a file, and as a second argument the path to where you want the file to be copied
+
+The line: cp -r Documents More_docs copies the contents of Documents into More_docs
+
+rm stands for remove
+
+mv stands for move: mv File_Name Directory_To_MoveToo
+
+echo will print whatever arguments you provide
+
+date will print the date
+
+pwd - print working directory
+
+clear
+
+
+//////////////////////////////////////////////////////////////////////
+
+Git Bash - allows users to push and pull their local repos to and from remote repos on the web.  provides users with a homepage that displays their public repos.  Public domain community.
+
+
+git init - initialize a local Git Repos in this dir
+
+git remote add origin https://github.com/name/test-repo.git
+
+git clone https://github.com/name/reponamehere.git
+
+git add -- adds all new files
+
+git add -u -- updates tracking for files that changed names or were deleted
+
+git add -A -- does both of the previous
+
+git commit -m "message" -- where message is a useful desc of the changes that were made.  only updates the local repos not on Github
+
+git push -- sends it to Github (remote dir)
+
+git checkout -b branchname -- to create a copy of the file you are working on so it doesnt get version controlled
+
+git branch -- to see what branch you are on
+
+git checkout master -- to switch back to the master branch
+
+Pull requests - if you fork someones repos or have multiple branches you will both be working sep.  sometimes you want to merge in your changes into the other branch/repo.  to do so you need to send a pull request.  this is on Github
+
+//////////////////////////////////////////////////////////////////////
+
+Basic Markdown
+
+Headings
+	## This is a secondary heading
+	### This is a tertiary heading
+
+Unordered Lists
+	* first item in the list
+	* second item in the list
+
+R Markdown
+
+
+//////////////////////////////////////////////////////////////////////
+
+Types of Data Science Questions
+
+1. Descriptive - Describe a set of data.  First kind of analysis that was performed.  Description and interp are different steps. Descriptions can not be generalized to the overall without some sort of modeling.  Ngram Viewer.
+
+
+2. Exploratory - Find relationships you didnt know about.  Exploratory models are good for discovering new connections.  They are useful for defining future studies.  These are usually not the final say.  Should not be used for generalization or predicting.  Correlation does not imply causation.
+
+
+3. Inferential - use a relatively small sample of data to say something about a bigger population.  inference is commonly the goal of statistical models.  inference involves estimating both the quantity you care about and your uncertainty about your estimate.  inference depends heavily on both population and the sampling scheme.
+
+
+4. Predictive  - To use the data on some objects to predict values for another object.  If X predicts Y it does not mean that X causes Y.  Accurate prediction depends heavily on measuring the right variables.  Although there are better and worse prediction models, more data and a simple model works really well.  Prediction is hard, especially about the future references.
+
+
+5. Causal      - To find out what happens to one variable when you make another variable change.  usually randomized studies are required to identify causation.  There are approaches to inferring causation in non-randomized studies, but may not apply to every individual.  Causal models are usually the "gold standard" for data analysis.  
+
+
+6. Mechanistic - Understand the exact changes in variables that lead to changes in other variables for individual objects.  Incredibly hard to infer, except in simple situations.  Usually modeled by a deterministic set of equations (physics/engineering).  Generally the random component of the data is measurment error.  If the equations arre known but the parameters are not, they may be inferred with data analysis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
